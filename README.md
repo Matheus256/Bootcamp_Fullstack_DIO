@@ -1,7 +1,7 @@
 # Bootcamp Fullstack DIO
 
-Reposótoria criado para guardar os códigos da práticas desenvolvidas ao longo do Bootcamp Spread Fullstack Developer da DIO
-Este repositório foi idealizado para ser dividido em pasta de acordo com os módulos do Bootcamp. A medida que os módulos forem sendo cumpridos este README será atualizado, ademais visualizo que cada módulo terá um diretório corresponde neste repositório. Segue um check list dos modulos
+Reposótoria criado para guardar os códigos das práticas desenvolvidas ao longo do Bootcamp Spread Fullstack Developer da DIO.
+A medida que os módulos forem sendo cumpridos este README será atualizado, ademais visualizo que cada módulo terá um diretório corresponde neste repositório. Segue um check list dos módulos
 
 - [x] Módulo I - Conteúdo de Abertura
 	- [x] Boas-vindas ao Bootcamp
@@ -17,6 +17,6 @@ Este repositório foi idealizado para ser dividido em pasta de acordo com os mó
 
 ## Conteúdo de Abertura
 
-Neste módulo vimos os conceitos introdutórios de programação, no meu caso puder relembrar esses conteúdo, uma vez que já tinha estudado durante a minha Graduação em Engenharia da Computação.
-Além disso, teveram aulas de introdução ao Git e ao GitHub, nas quais puder refrescar a memória sobre o uso desses sistemas, bem com de aperfeiçoar meus conhecimentos e aprender mais sobre o fluxo de trabalho com essas tecnologias.
+Neste módulo vimos os conceitos introdutórios de programação, no meu caso pude relembrar esses conteúdos, uma vez que já tinha estudado durante a minha Graduação em Engenharia da Computação.
+Além disso, tiveram aulas de introdução ao Git e ao GitHub, nas quais pude refrescar a memória sobre o uso desses sistemas, bem com de aperfeiçoar meus conhecimentos e aprender mais sobre o fluxo de trabalho com essas tecnologias.
 
