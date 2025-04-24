@@ -1,0 +1,60 @@
+COMANDOS DO GIT NO TERMINAL:
+
+
+---------------------- Fluxo de trabalho: -------------------------------------------------------------------------------------
+	git init --> Inicia um repositorio local criando um arquivo .git, para ser feito dentro da pasta
+	
+	git status --> Exibe as mudancas no repositorio local e os respectivos estados
+	git add nome_arquivo -> adiciona o arquivo para ser commitado
+	git add . --> Adiciona todos os arquivos para serem commitados
+	git commit -m "Mensagem do commit" --> Faz o commit no repositório local com a respectiva mensagem
+	
+	git log --> mostra TODOS os commits feitos no repositório
+
+	git diff nome_arquivo --> Mostra as diferenças no aquivo nome_arquivo para o commit anteiror
+
+	git reset nome_aqrquivo --> Retira o arquivo nome_arquivo colocado no com o git add
+	
+	
+---------------------- Trabalhando com Branchs ---------------------------------------------------------------------------------
+	git branch --> Mostra todas a branchs do projeto e indica qual a branch atual está sendo usada
+	git checkout -b nova_branch --> cria uma nova branch chamada nova_branch e já faz a troca da branch atual para a criada 
+	git checkout nome_branch --> Muda para a branch nome_branch
+	
+	git branch -m novo_nome --> Muda o nome da branch atual para novo_nome
+	
+	git merge outra_branch --> traz o que tem na outra branch para a branch atual (mescla branch atual com a outra_branch
+	
+	git branch -D outra_branch --> Deleta a branch de nome outra_branch (Não pode estar na outra_branch para usar esse comando)
+	
+	(DICA: "Por segurança não se trabalha na main"
+           "Cria-se uma outra branch para trabalhar, depois faz o merge com a main e então exclui a branch criada	         
+	)
+	
+	Conflitos acontecem em alterações na mesma linha
+	HEAD é o último commit da branch.
+	
+--------------------- Conexão com um repositório remoto no GitHub --------------------------------------------------------------
+	git remote add origin SSH_repositorio_ github --> Liga o repositorio local com o remoto
+	git push origin master --> Adiciona ao repositorio no github na branch master
+
+	git pull origin master --> Puxa para o repositorio local o que tem no repositorio remoto e noa tem no local
+
+	---------- Auxilires ----------------------------------------------------------------
+	git remote remove origin --> Remove a ligação com o repositório remoto
+	git remote -v --> Verifica o repositório remoto
+
+
+--------------------- GIT FLOW
+--------------------------------------------------------------
+	Cria na origem (repositório remoto) uma branch develop (de desenvolvimento para servir como nova main).
+	Usa o comando ```git fetch``` para trazer as branches do repositório remoto
+	Depois usa o comando ```git checkout develop``` para trabalhar na branch develop localmente.
+	Finalmente, começa a trabalhar depois do comando ```git pull origin develop``` para garantir que estamos com
+	a última atualização da branch develop.
+	Para não alterar a develop, cria-se uma nova branch para novas implementações:
+	git checkout -b <nome_padronizado_da_nova_branch>
+	
+	Exemplo: docs/readme --> Siginfica que é uma branch de documentação para alterar o arquivo README.md
+			docs: acrescimo de links associados ao README.md --> Demonstra as mudanças feitas no commit
+			
