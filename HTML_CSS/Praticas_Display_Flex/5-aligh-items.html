@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática 6 - Aligh items</title>
+</head>
+
+<style>
+    .container{
+        max-width: 350px;
+        border: 1px solid black;
+        display: flex;
+    }
+
+    .item{
+        background-color: indianred;
+        margin: 5px;
+        color: white;
+        text-align: center;
+        flex: 1;
+    }
+
+    .flex{
+        flex: 1;
+    }
+
+    .center{
+        align-items: center;
+    }
+
+    .stretch{
+        align-items: stretch;
+    }
+
+    .start{
+        align-items: flex-start;
+    }
+
+    .end{
+        align-items: flex-end;
+    }
+
+    .baseline{
+        align-items: baseline;
+    }
+
+    .column{
+        flex-direction: column;
+    }
+
+    .central{
+        height: 300px;
+        justify-content: center;
+    }
+
+    .central .item{
+        flex: 0;
+        padding: 20px;
+    }
+</style>
+
+<body>
+    <h1>row</h1>
+    <h3>center</h3>
+    <section class="container center">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem ipsum dolor sit amet</div>
+        <div class="item">Item 3 mais algum texto. Lipsum</div>
+    </section>
+
+    <h3>streth</h3>
+    <section class="container stretch">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet</div>
+        <div class="item">Item 3 mais algum texto. Lipsum</div>
+    </section>
+
+    <h3>flex-start</h3>
+    <section class="container start">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem ipsum dolor sit amet</div>
+        <div class="item">Item 3 mais algum texto. Lipsum</div>
+    </section>
+
+    <h3>flex-end</h3>
+    <section class="container end">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem ipsum dolor sit amet</div>
+        <div class="item">Item 3 mais algum texto. Lipsum</div>
+    </section>
+
+    <h3>baseline</h3>
+    <section class="container baseline">
+        <div class="item"><br>Item 1</div>
+        <div class="item">Lorem ipsum dolor sit amet</div>
+        <div class="item">Item 3 mais algum texto. Lipsum</div>
+    </section>
+
+    <h1>Column</h1>
+    <h3>flex-start</h3>
+    <section class="container start column">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem ipsum dolor sit amet</div>
+        <div class="item">Item 3 mais algum texto. Lipsum</div>
+    </section>
+
+    <h3>flex-end</h3>
+    <section class="container end column">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem ipsum dolor sit amet</div>
+        <div class="item">Item 3 mais algum texto. Lipsum</div>
+    </section>
+
+    <h3>center</h3>
+    <section class="container center column">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem ipsum dolor sit amet</div>
+        <div class="item">Item 3 mais algum texto. Lipsum</div>
+    </section>
+
+    <h3>baseline</h3>
+    <section class="container baseline column">
+        <div class="item"><br>Item 1</div>
+        <div class="item">Lorem ipsum dolor sit amet</div>
+        <div class="item">Item 3 mais algum texto. Lipsum</div>
+    </section>
+
+    <h3>Alinhamento central a tela</h3>
+    <section class="container central center">
+        <div class="item">Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.
+        </div>
+    </section>
+</body>
+</html>
