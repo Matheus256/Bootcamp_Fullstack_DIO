@@ -61,7 +61,7 @@ body{
     background-color: #ffffff;
     width: 100%;
     padding: 1rem 0; /* Em cima e embaixo e zero dos lados */
-    border: 5px solid black;
+    border: 5px solid #4a4848;
     border-radius: 20px;
 }
 
