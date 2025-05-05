@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática 12 - Order</title>
+</head>
+
+<style>
+    .flex-container{
+        display: flex;
+        max-width: 350px;
+        border: 1px solid black;
+        margin-bottom: 20px;
+    }
+
+    .item{
+        flex: 1;
+        background: brown;
+        color: white;
+        text-align: center;
+        font-size: 24px;
+        margin: 5px;
+    }
+
+    .o-1{
+        order: 1;
+    }
+
+    .o-2{
+        order: 2;
+    }
+
+    .o-3{
+        order: 3;
+    }
+
+    .o-4{
+        order: 4;
+    }
+
+    .direction{
+        flex-direction: column;
+    }
+</style>
+
+<body>
+    <h2>Em row</h2>
+    <p>Order: 0</p>
+    <div class="flex-container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">4n</div>
+        <div class="item">4m</div>
+    </div>
+
+    <p>Order: diferentes</p>
+    <div class="flex-container">
+        <div class="item">1</div>
+        <div class="item o-3">4</div>
+        <div class="item o-2">4n</div>
+        <div class="item o-1">4m</div>
+    </div>
+
+    <h2>Em column</h2>
+    <p>Order: 0</p>
+    <div class="flex-container direction">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">4n</div>
+        <div class="item">4m</div>
+    </div>
+
+    <p>Order: diferentes</p>
+    <div class="flex-container direction">
+        <div class="item o-4">1</div>
+        <div class="item o-3">4</div>
+        <div class="item o-2">4n</div>
+        <div class="item o-1">4m</div>
+    </div>
+</body>
+</html>
