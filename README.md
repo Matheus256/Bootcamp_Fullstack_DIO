@@ -29,7 +29,15 @@ A medida que os módulos forem sendo cumpridos este README será atualizado, ade
     - [x] Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces
     - [x] Desafios Iniciais Js - Spread FullStack
     - [x] Aprenda a Criar um Sistema de estacionamento Usando TypeScript
-- [ ] Módulo IV - ReactJS 
+- [ ] Módulo IV - ReactJS
+    - [x] Introdução ao ReactJS
+    - [x] Introdução aos React Hooks
+    - [x] Trabalhando com States e Effects no ReactJS
+    - [x] Desenvolvimento de aplicação para internet com ReactJS
+    - [x] Desafio Intermediários Js - Spread FullStack
+    - [x] Práticas avançadas em projetos com ReactJS
+    - [x] Introdução a Redux com ReactJS
+    - [x] Criando um Frontend Totalmente Componentizado na Prática com ReactJS
 - [ ] Módulo V - Banco de Dados
 - [ ] Módulo VI - NodeJS
 
@@ -45,3 +53,7 @@ Este módulo foi muito rico, com a exploração de diversos tipos de customizaç
 ## JavaScript
 
 O módulo fundamental de todo o Bootcamp, certamente sem ele é impossível acompanhar bem os módulos seguintes. Este módulo foi exaustivamente prática, permitindo entender grande parte da sintaxe do JavaScript, bem com, de conhecer muitas de suas particularidades. Naturalmente, aproveitei para praticar muito e codificar usando minha máquina, que também foi preparada para desenvolver em JavaScript. Neste módulo também pude, finalmente, conhecer e aprende o que é o TypeScript, tendo a oportunidade de preparar um ambiente de desenvolvimento em TypeScript.
+
+## ReactJS
+
+Este para mim, até agora, foi o Módulo que mais senti dificuldade, no entanto já consigo entender a importância e profissionalismo que o uso do ReactJS no Frontend. Meu nível de confiança em ReactJS não está tão elevando como o dos demais conteúdos, porém consegui sair do zero e me familiarizar com muitas práticas. Naturalmente, vou seguir estudando e melhorando ainda mais.
