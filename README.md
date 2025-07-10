@@ -29,7 +29,7 @@ A medida que os módulos forem sendo cumpridos este README será atualizado, ade
     - [x] Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces
     - [x] Desafios Iniciais Js - Spread FullStack
     - [x] Aprenda a Criar um Sistema de estacionamento Usando TypeScript
-- [ ] Módulo IV - ReactJS
+- [x] Módulo IV - ReactJS
     - [x] Introdução ao ReactJS
     - [x] Introdução aos React Hooks
     - [x] Trabalhando com States e Effects no ReactJS
