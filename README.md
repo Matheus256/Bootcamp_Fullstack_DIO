@@ -1,7 +1,7 @@
 # Bootcamp Fullstack DIO
 
 Reposótoria criado para guardar os códigos das práticas desenvolvidas ao longo do Bootcamp Spread Fullstack Developer da DIO.
-A medida que os módulos forem sendo cumpridos este README será atualizado, ademais visualizo que cada módulo terá um diretório corresponde neste repositório. Segue um check list dos módulos
+A medida que os módulos forem sendo cumpridos este README será atualizado, ademais visualizo que cada módulo terá um diretório corresponde neste repositório. Segue um checklist dos módulos
 
 - [x] Módulo I - Conteúdo de Abertura
 	- [x] Boas-vindas ao Bootcamp
@@ -38,7 +38,9 @@ A medida que os módulos forem sendo cumpridos este README será atualizado, ade
     - [x] Práticas avançadas em projetos com ReactJS
     - [x] Introdução a Redux com ReactJS
     - [x] Criando um Frontend Totalmente Componentizado na Prática com ReactJS
-- [ ] Módulo V - Banco de Dados
+- [x] Módulo V - Banco de Dados
+    - [x] MySQL - Trabalhando com suas Primeiras Tabelas
+    - [x] MySQL - Consultas com Join
 - [ ] Módulo VI - NodeJS
 
 ## Conteúdo de Abertura
@@ -57,3 +59,7 @@ O módulo fundamental de todo o Bootcamp, certamente sem ele é impossível acom
 ## ReactJS
 
 Este para mim, até agora, foi o Módulo que mais senti dificuldade, no entanto já consigo entender a importância e profissionalismo que o uso do ReactJS no Frontend. Meu nível de confiança em ReactJS não está tão elevando como o dos demais conteúdos, porém consegui sair do zero e me familiarizar com muitas práticas. Naturalmente, vou seguir estudando e melhorando ainda mais.
+
+## Banco de Dados
+
+Este foi o módulo mais curso do Bootcamp, particularmente pude passar rápido por este módulo, uma vez que já tinha conhecimento sobre SQL, uma vez que cursei a disciplina de Banco de Dados. De qualquer modo é sempre proveitoso relembrar SQL e Modelo Conceitual de um Banco de Dados, não apenas pela sua importância mas também por ser a base de muitos conhecimentos sobre Banco de Dados e Sistemas Gerenciadores de Banco de Dados.
