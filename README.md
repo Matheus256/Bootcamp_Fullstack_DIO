@@ -41,7 +41,14 @@ A medida que os módulos forem sendo cumpridos este README será atualizado, ade
 - [x] Módulo V - Banco de Dados
     - [x] MySQL - Trabalhando com suas Primeiras Tabelas
     - [x] MySQL - Consultas com Join
-- [ ] Módulo VI - NodeJS
+- [x] Módulo VI - NodeJS
+    - [x] Introdução a APIs e métodos HTTP
+    - [x] Desenvolvimento back-end com NodeJS
+    - [x] Introdução ao NodeJS com Express
+    - [x] Desafios Finais Js - Spread FullStack
+    - [x] Aplicando o Estilo Arquitetural REST com NodeJS
+    - [x] NodeJS com Banco de Dados Relacionais (SQL)
+    - [x] Construindo Encurtador de URL
 
 ## Conteúdo de Abertura
 
@@ -63,3 +70,7 @@ Este para mim, até agora, foi o Módulo que mais senti dificuldade, no entanto 
 ## Banco de Dados
 
 Este foi o módulo mais curso do Bootcamp, particularmente pude passar rápido por este módulo, uma vez que já tinha conhecimento sobre SQL, uma vez que cursei a disciplina de Banco de Dados. De qualquer modo é sempre proveitoso relembrar SQL e Modelo Conceitual de um Banco de Dados, não apenas pela sua importância mas também por ser a base de muitos conhecimentos sobre Banco de Dados e Sistemas Gerenciadores de Banco de Dados.
+
+## NodeJS
+
+Neste último módulo tive a oportunidade de entender melhor o que é uma API e de fato construir uma. Ademais, os conhecimentos aprendidos neste módulo me fizeram entender melhor uma atuação profissional que tive com Back-End, motivo pelo qual este módulo também se tornou especial. Diferente dos outros módulos, neste não produzi muitos códigos a princípio, porém seguirei estudando e pondo em práticas os assuntos compreendidos.
