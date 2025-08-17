@@ -1,6 +1,6 @@
 # Bootcamp Fullstack DIO
 
-Reposótoria criado para guardar os códigos das práticas desenvolvidas ao longo do Bootcamp Spread Fullstack Developer da DIO.
+Repositório criado para guardar os códigos das práticas desenvolvidas ao longo do Bootcamp Spread Fullstack Developer da DIO.
 A medida que os módulos forem sendo cumpridos este README será atualizado, ademais visualizo que cada módulo terá um diretório corresponde neste repositório. Segue um checklist dos módulos
 
 - [x] Módulo I - Conteúdo de Abertura
